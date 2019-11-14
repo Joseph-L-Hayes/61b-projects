@@ -1,0 +1,12 @@
+My AI is repeatedly trying to choose the same move in one of two situations:
+1. Trying to move a piece that is completely blocked in and is not able to move.
+2. Trying to move a piece in a direction that it cannot move though it has one adjacent space in which to move that leads to >20 moves. 
+
+If I play as white for two turns with the moves “d1 d3  d9” and then “d3 i3 i10” it will get stuck as noted above. This is not the only situation in which it gets stuck, just a suggestion of moves to try. It seems to get stuck if I manually move one or two times. The sticking happens for black or for white.
+
+I’ve checked my reachableFrom and legalMoves iterators using the board and piece that get stuck. I am seeing that the piece which has moves is getting them as options from legalMovesIterator and the piece that should not be able to move (#1 above) is not getting moves. 
+
+Note: If I start a new game and auto white, the game plays and black wins every time with the same moves. I am able to start a new game after a win and I’ve seen both white and black win.
+
+I've been working on this project the entire weekend just to get AI to work and I'm ready to quit as I see many of my classmates are and have already. I've spent the last 3 weeks working on this amidst midterms and other class projects. It is very disheartening to see that I'm going to fail the project after all this sacrifice.
+

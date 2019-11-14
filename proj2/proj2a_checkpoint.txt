@@ -1,0 +1,22 @@
+The project 2 checkpoint has been released and will be due Tuesday October 30 at 11:59 PM. Note the website previously said 11/5, but the checkpoint has been lightened and the date has been moved up to encourage starting earlier.
+
+The checkpoint is made up of two components: a conceptual check, which you will submit through Google Forms and a code check, composed of 3 unit tests which you must pass for credit. This is aimed to give you an introduction to the project (the methods tested are a small fraction of the overall project) and get you to start early!
+ 
+The conceptual check is a short quiz that tests for understanding of the project. You should be able to complete it after reading the project spec. A full score on the quiz requires sufficient effort. The quiz is here.
+ 
+The code check has 3 unit tests that test parts of the following methods:
+	•	Board.java
+	◦	void init()
+	◦	final void put(Piece p, Square s)
+	◦	final Piece get(int col, int row)
+	◦	public String toString()
+	•	Square.java
+	◦	boolean isQueenMove(Square to)
+	◦	Square (constructor)
+ 
+To receive the unit tests to run them locally:
+	1.	In your repo, run git fetch shared 
+	2.	Run git merge shared/proj2a -m “proj2a” 
+	3.	Copy the unit tests in proj2a/UnitTest.java file into your proj2/amazons/UnitTest.java file (or anywhere else in the project as you desire). 
+ 
+You should be implementing everything in your proj2 folder. We will only be grading your proj2 folder and not your proj2a folder. Tag your checkpoint submission as proj2a-x where x is the submission number.
